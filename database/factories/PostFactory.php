@@ -19,8 +19,8 @@ class PostFactory extends Factory
         return [
             //
             'user_id' => 1,
-            'title' => fake('ja_JP')->realText(20),
-            'content' => fake('ja_JP')->realText(),
+            'title' => fake('ja_JP')->realText(10),
+            'content' => fake('ja_JP')->realText(100),
         ];
     }
 }
